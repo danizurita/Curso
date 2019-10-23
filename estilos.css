@@ -1,0 +1,75 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.principal{
+	width: auto;
+	margin: 0px;
+	background-color: #ffffbf;
+	border: 20px solid #0a0a0a;
+	padding: 50px;
+	text-align: center;
+}
+
+ul,ol{
+	list-style-position: inside;
+}
+
+ul,ol{
+	list-style-type: circle;
+}
+
+p,ul,ol {
+  font: oblique bold 120% cursive;
+}
+
+h1 {
+  color: #000080;
+  font-family: fantasy;
+  font-size: 300%;
+}
+
+h3 {
+  font-family: "Homer Simpson", cursive;
+  color:#008000;
+}
+
+.button{
+	text-decoration: none;
+	padding: 20px;
+	font-weight: 900;
+	font-size: 20px;
+	color:#ffffff;
+	background-color: #80002f;
+	border: 2px solid #0016b0;
+	border-radius: 5px;
+	text-align: center;
+
+	width: 200px;
+	margin: 20px auto;
+}
+
+.button:hover{
+	color: #1883ba;
+    background-color: #ffffff;
+}
+
+.principal2{
+	width: auto;
+	margin: 0px;
+	background-color: #ffffbf;
+	border: 20px solid #0a0a0a;
+	padding: 10px;
+	text-align: center;
+}
+
+.principal21{
+	width: auto;
+	margin: 0px;
+	background-color: #ffffbf;
+	border: 20px solid #0a0a0a;
+	padding: 50px;
+	text-align: center;
+}
