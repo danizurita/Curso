@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.principal{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.menu{
+	width: 900px;
+	height: 150px;
+	background-color: Cornflowerblue;
+	margin: 0 auto;
+	border: 1px solid black;
+	display: flex;
+	align-items:  center;
+	justify-content: space-between;
+}
+.hijo1{
+	width: 250px;
+	height: 50px;
+	background-color: silver;
+	border: 1px solid black;
+}
+.hijo2{
+	width: 250px;
+	height: 50px;
+	background-color: silver;
+	border: 1px solid black;
+	
+}
+.segundo{
+	
+	display: flex;
+	justify-content: flex-start;
+}
+.salmon{
+	width: 700px;
+	background-color: Lightsalmon;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.hijo1salmon{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.hijo2salmon{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.hijo3salmon{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+.olivo{
+	width: 200px;
+	background-color: Olive;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.olivohijo1{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.olivohijo2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.olivohijo3{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.Navy{
+	width: 900px;
+	height: 100px;
+	background-color: Navy;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+.Navyhijo1{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+.Navyhijo2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
