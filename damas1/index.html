@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<title>Damas Españolas</title>
+    <link rel="stylesheet" href="tablero.css">
+</head>
+<body>
+    <div id="contenido">
+    	
+        <div id="tablero">
+            <div class="fila">
+                <div class="celdablanca" id="c00">
+                </div>
+                <div class="celdanegra" id="c10" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbA" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c20">
+                </div>
+                <div class="celdanegra" id="c30" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbB" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c40">
+                </div>
+                <div class="celdanegra" id="c50" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbC" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c60">
+                </div>
+                <div class="celdanegra" id="c70" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbD" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdanegra" id="c01" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbE" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c11">
+                </div>
+                <div class="celdanegra" id="c21" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbF" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c31">
+                </div>
+                <div class="celdanegra" id="c41" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbG" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c51">
+                </div>
+                <div class="celdanegra" id="c61" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbH" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c71">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdablanca" id="c02">
+                </div>
+                <div class="celdanegra" id="c12" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbI" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c22">
+                </div>
+                <div class="celdanegra" id="c32" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbJ" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c42">
+                </div>
+                <div class="celdanegra" id="c52" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbK" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c62">
+                </div>
+                <div class="celdanegra" id="c72" onclick="desplazar(this.id)">
+                    <img src="dot2.png" id="fbL" onclick="movBlancas(this.parentNode.id, this.id)">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdanegra" id="c03" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c13">
+                </div>
+                <div class="celdanegra" id="c23" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c33">
+                </div>
+                <div class="celdanegra" id="c43" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c53">
+                </div>
+                <div class="celdanegra" id="c63" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c73">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdablanca" id="c04">
+                </div>
+                <div class="celdanegra" id="c14" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c24">
+                </div>
+                <div class="celdanegra" id="c34" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c44">
+                </div>
+                <div class="celdanegra" id="c54" onclick="desplazar(this.id)">
+                </div>
+                <div class="celdablanca" id="c64">
+                </div>
+                <div class="celdanegra" id="c74" onclick="desplazar(this.id)">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdanegra" id="c05" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frA" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c15">
+                </div>
+                <div class="celdanegra" id="c25" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frB" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c35">
+                </div>
+                <div class="celdanegra" id="c45" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frC" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c55">
+                </div>
+                <div class="celdanegra" id="c65" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frD" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c75">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdablanca" id="c06">
+                </div>
+                <div class="celdanegra" id="c16" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frE" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c26">
+                </div>
+                <div class="celdanegra" id="c36" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frF" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c46">
+                </div>
+                <div class="celdanegra" id="c56" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frG" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c66">
+                </div>
+                <div class="celdanegra" id="c76" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frH" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="celdanegra" id="c07" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frI" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c17">
+                </div>
+                <div class="celdanegra" id="c27" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frJ" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c37">
+                </div>
+                <div class="celdanegra" id="c47" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frK" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c57">
+                </div>
+                <div class="celdanegra" id="c67" onclick="desplazar(this.id)">
+                    <img src="dot1.png" id="frL" onclick="movRojas(this.parentNode.id, this.id)">
+                </div>
+                <div class="celdablanca" id="c77">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
